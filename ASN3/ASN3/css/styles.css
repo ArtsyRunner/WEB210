@@ -1,0 +1,152 @@
+/*WEB 210.0002 LESSON 3, styles.css, SESHU SINGH, STUDENT ID...8045*/
+
+/*COLORS 
+cadetblue #5F9EA0, rgb(95,158,160), lightgrey #D3D3D3, rgb(211,211,211),linen #FAF0E6, rgb(250,240,230), aliceblue #F0F8FF, rgb(240,248,255)*/
+
+/*-------------GLOBAL-------------*/
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(250, 240, 230);
+}
+
+/*-----------HEADER---------------*/
+header {
+    background-color: rgba(95, 158, 160, 0.5);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px grey;
+    padding: 1%;
+    text-align: center;
+}
+
+header p {
+    color: rgb(0, 0, 0);
+}
+
+.featured {
+    text-align: center;
+}
+
+/*--------------LINKS------------*/
+.about a {
+    text-decoration: none;
+    border: 1px solid rgb(5, 80, 155);
+    border-radius: 6px;
+    padding: 3px;
+    background-color: gray;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(202, 1, 45);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(245, 112, 201);
+    text-decoration: underline;
+}
+
+/*--------------FEATURED-------------*/
+.featured a {
+    text-decoration: none;
+    border: 1px solid rgb(5, 80, 155);
+    border-radius: 6px;
+    padding: 3px;
+    background-color: rgb(95, 158, 160, 0.2);
+}
+
+/*image*/
+.fortpix {
+    width: 29%;
+    height: 49%;
+}
+
+/*image*/
+.rocket {
+    width: 30%;
+    height: 50%;
+}
+
+.project, .project2 {
+    background-color: whitesmoke;
+    width: 45%;
+    box-shadow: 10px 10px grey;
+    padding: 1%;
+}
+
+.project {
+    float: left;
+    margin-right: 2%;
+}
+
+.project2 {
+    display: inline-block;
+}
+
+/*------------WORK EXPERIENCE------------*/
+.work {
+    background-color: rgb(211, 211, 211, .5);
+    width: 45%;
+    padding: 1%;
+    margin-top: 2%;
+    float: left;
+    box-shadow: 10px 10px grey;
+}
+
+.work p {
+    color: black;
+}
+
+h2 {
+    color: rgb(11, 92, 92);
+}
+
+.work2, h3 {
+    color: rgb(146, 3, 99);
+}
+
+.work2 {
+    background-color: rgba(211, 211, 211, .5);
+    width: 50%;
+    padding: 1%;
+    margin-top: 2%;
+    color: black;
+    float: right;
+    box-shadow: 10px 10px grey;
+}
+
+/*---------------EDUCATION----------------*/
+.education {
+    background-color: rgb(240, 248, 255);
+    width: 50%;
+    margin-left: 2%;
+    display: inline-block;
+    padding: 2%;
+    box-shadow: 10px 10px grey;
+}
+
+/*-----------------FOOTER----------------*/
+footer {
+    background-color: rgba(156, 232, 235, 0.2);
+    display: inline-block;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 10px grey;
+}
+
+footer li {
+    list-style-type: none;
+}
