@@ -1,0 +1,21 @@
+  /*Web 140 Lesson 5 Assignment 4 Seshu Singh 9/20/21 HTML/CSS*/
+  body {
+       font: 120% Tahoma, Verdana, sans-serif;
+       width: 70%; 
+       margin: 0 auto;
+       background-color: blanchedalmond;
+   }
+
+   h1 {
+       text-align: center;
+       font-weight: bold;
+       font-size: 2rem;
+   }
+
+   li {
+       font-style: italic;
+   }
+
+   a {
+       text-decoration: none;
+   }
